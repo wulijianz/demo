@@ -27,6 +27,6 @@ public interface StudentMapper {
 	@Results(id = "student", value = { @Result(property = "sno", column = "sno", javaType = String.class),
 			@Result(property = "name", column = "sname", javaType = String.class),
 			@Result(property = "sex", column = "ssex", javaType = String.class) })
-	Student queryStudentBySno(String sno);
+ 	Student queryStudentBySno(String sno);
 
 }
